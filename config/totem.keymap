@@ -99,10 +99,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp Q  &kp W           &kp E               &kp R             &kp T      &kp Y            &kp U            &kp I                &kp O              &kp P
-              &kp A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G      &kp H            &mt RIGHT_ALT J  &mt RIGHT_CONTROL K  &mt RIGHT_SHIFT L  &kp SEMI
-&kp LEFT_GUI  &kp Z  &kp X           &kp C               &kp V             &kp B      &kp N            &kp M            &kp COMMA            &kp DOT            &kp FSLH  &kp ENTER
-                                     &lt 3 ESC           &lt 1 SPACE       &kp TAB    &lt 7 BACKSPACE  &lt 6 SPACE      &kp DELETE
+              &kp Q  &kp W           &kp E               &kp R             &kp T      &kp Y        &kp U            &kp I                &kp O              &kp P
+              &kp A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G      &kp H        &mt RIGHT_ALT J  &mt RIGHT_CONTROL K  &mt RIGHT_SHIFT L  &kp SEMI
+&kp LEFT_GUI  &kp Z  &kp X           &kp C               &kp V             &kp B      &kp N        &kp M            &kp COMMA            &kp DOT            &kp FSLH  &kp RIGHT_GUI
+                                     &lt 3 ESC           &lt 1 SPACE       &kp TAB    &lt 7 ENTER  &lt 6 BACKSPACE  &kp DELETE
             >;
         };
 
@@ -125,9 +125,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &none     &none         &none             &none           &none    &kp K_REDO      &kp K_PASTE     &kp K_COPY     &kp K_CUT        &kp K_UNDO
-        &kp LGUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &kp CAPS
-&trans  &none     &none         &none             &none           &none    &kp LA(INSERT)  &kp HOME        &kp PAGE_DOWN  &kp PG_UP        &kp END     &trans
+        &none     &none         &none             &none           &none    &kp K_REDO      &kp K_PASTE     &kp K_COPY      &kp K_CUT        &kp K_UNDO
+        &kp LGUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &kp PAGE_DOWN   &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp CAPS
+&trans  &none     &none         &none             &none           &none    &kp LA(INSERT)  &kp HOME        &kp DOWN_ARROW  &kp PG_UP        &kp END     &trans
                                 &none             &trans          &none    &kp ENTER       &kp BACKSPACE   &kp DELETE
             >;
         };
